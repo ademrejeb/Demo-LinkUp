@@ -47,7 +47,7 @@ async function  addTournament(req,res){
   async function deleteTournament(req,res){
     try {
   //const newuser =  user(req.body)
-  const updatedObject = await Tournament.findByIdAndDelete( req.params.id );
+  await Tournament.findByIdAndDelete( req.params.id );
   res.status(200).send("deleeted");
     }
       catch(err) {
