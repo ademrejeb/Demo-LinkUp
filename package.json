@@ -8,7 +8,7 @@
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
-    "build": "babel controllers middlewares models routes -d dist"
+    "build": "babel controllers models routes -d dist"
   },
   "author": "nexgencoders",
   "license": "ISC",
